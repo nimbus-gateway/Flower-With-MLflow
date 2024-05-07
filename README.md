@@ -1,9 +1,9 @@
-# Flower with MlFlow for Custom Dataset
+# Flower with MLflow for Custom Dataset
 
 
 ### Installing Dependencies
 
-Uses https://github.com/nimbus-gateway/cords-semantics-lib/tree/main for mlflow tagging
+Uses https://github.com/nimbus-gateway/cords-semantics-lib/tree/main for MLflow tagging
 
 Project dependencies (such as `torch` and `flwr`) are defined in `pyproject.toml`. You can install the dependencies by invoking `pip`:
 
@@ -22,7 +22,7 @@ If you don't see any errors you're good to go!
 
 ______________________________________________________________________
 
-## Run Federated Learning with MLFlow, PyTorch and Flower
+## Run Federated Learning with MLflow, PyTorch and Flower
 
 Start mlflow local server using:
 
