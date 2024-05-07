@@ -2,6 +2,7 @@
 
 
 ### Installing Dependencies
+Uses https://github.com/adap/flower/tree/main/examples/quickstart-pytorch for base implementation
 
 Uses https://github.com/nimbus-gateway/cords-semantics-lib/tree/main for MLflow tagging
 
