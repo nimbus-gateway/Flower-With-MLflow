@@ -16,7 +16,7 @@ pip install .
 Then, to verify that everything works correctly you can run the following command:
 
 ```shell
-python3 -c "import flwr"
+python -c "import flwr"
 ```
 
 If you don't see any errors you're good to go!
@@ -34,23 +34,23 @@ mlflow UI
 Afterwards you are ready to start the Flower server as well as the clients. You can simply start the server in a terminal as follows:
 
 ```shell
-python3 server.py
+python server.py
 ```
 
-Now you are ready to start the Flower clients which will participate in the learning. We need to specify the partition id to
-use different partitions of the data on different nodes.  To do so simply open two more terminal windows and run the
+Now you are ready to start the Flower clients which will participate in the learning. We need to specify the client id to
+use different clients.  To do so simply open two more terminal windows and run the
 following commands.
 
 Start client 1 in the first terminal:
 
 ```shell
-python3 client.py --partition-id 0
+python client.py --client-id 0
 ```
 
 Start client 2 in the second terminal:
 
 ```shell
-python3 client.py --partition-id 1
+python client.py --client-id 1
 ```
 
 You will see that PyTorch is starting a federated training. Look at the [code](https://github.com/adap/flower/tree/main/examples/quickstart-pytorch) for a detailed explanation.
