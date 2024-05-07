@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/9c0032fb4ae74019bb57e66377c4e6a1/artifacts
+deleted_time: 1715074787245
+end_time: 1715074063667
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9c0032fb4ae74019bb57e66377c4e6a1
+run_name: '20240507_102615'
+run_uuid: 9c0032fb4ae74019bb57e66377c4e6a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715074054191
+status: 3
+tags: []
+user_id: Sourabh.Bharti
