@@ -22,7 +22,11 @@ If you don't see any errors you're good to go!
 
 ______________________________________________________________________
 
-## Run Federated Learning with PyTorch and Flower
+## Run Federated Learning with MLFlow, PyTorch and Flower
+
+Start mlflow local server using:
+
+mlflow ui
 
 Afterwards you are ready to start the Flower server as well as the clients. You can simply start the server in a terminal as follows:
 
