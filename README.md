@@ -26,7 +26,9 @@ ______________________________________________________________________
 
 Start mlflow local server using:
 
-mlflow ui
+```shell
+mlflow UI
+```
 
 Afterwards you are ready to start the Flower server as well as the clients. You can simply start the server in a terminal as follows:
 
