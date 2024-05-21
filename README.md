@@ -1,10 +1,12 @@
 # Flower with MLflow for Custom Dataset
 
 
-### Installing Dependencies
+
 Uses https://github.com/adap/flower/tree/main/examples/quickstart-pytorch for base implementation
 
 Uses https://github.com/nimbus-gateway/cords-semantics-lib/tree/main for MLflow tagging
+
+### Installing Dependencies
 
 Project dependencies (such as `torch` and `flwr`) are defined in `pyproject.toml`. You can install the dependencies by invoking `pip`:
 
