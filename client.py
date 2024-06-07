@@ -27,7 +27,7 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 experiment_name = "Federated-Learning-Energy-Prediction"
 run_name = datetime.now().strftime("%Y%m%d_%H%M%S")
 logdir = os.path.join("logs", experiment_name, run_name)
-mlflow.set_tracking_uri('http://localhost:5000')
+
 
 class ElectricityModel(nn.Module):
     """Custom model for electricity consumption prediction."""
@@ -112,6 +112,7 @@ class FlowerElectricityClient(NumPyClient):
     def fit(self, parameters, config):
         #round_num = config.get("num_rounds", 0)
         self.set_parameters(parameters)
+        mlflow.set_tracking_uri("http://127.0.0.1:5000")
         with mlflow.start_run(run_name=run_name) as mlflow_run:
             # #Log parameters
             # for k, v in config.items():

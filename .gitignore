@@ -11,10 +11,13 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+mlartifacts/
+mlruns/
 downloads/
 eggs/
 .eggs/
 lib/
+mlruns/
 lib64/
 parts/
 sdist/

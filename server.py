@@ -20,7 +20,7 @@ def weighted_average(metrics: List[Tuple[int, Metrics]]) -> Metrics:
 experiment_name = "Federated-Learning-Energy-Prediction"
 run_name = datetime.now().strftime("%Y%m%d_%H%M%S")
 logdir = os.path.join("logs", experiment_name, run_name)
-mlflow.set_tracking_uri('http://localhost:5000')
+#mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 # Define strategy
 strategy = fl.server.strategy.FedAvg(evaluate_metrics_aggregation_fn=weighted_average)
